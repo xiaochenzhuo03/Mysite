@@ -102,6 +102,7 @@
       			<div class="modal-body">
        			<p>Email: xiaochenzhuo03@163.com</p>
        			<p>Phone: (+1)8312392778</p>
+       			<p><a href="https://github.com/xiaochenzhuo03">Github: xiaochenzhuo03<a></p>
       			</div>
       			<div class="modal-footer">
       			</div>

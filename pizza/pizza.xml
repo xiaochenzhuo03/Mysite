@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu>
+		<item name="Tomato">
+	    	<price >5.50</price>
+	  	</item>
+	  	<item name="Onion">
+	    	<price>6.85</price>
+	  	</item>
+	  	<item name="Pepper">
+	    	<price>6.85</price>
+	  	</item>
+	  	<item name="Hawaii">
+	    	<price>7.95</price>
+	  	</item>
+</menu>

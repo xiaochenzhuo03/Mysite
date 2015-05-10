@@ -1,0 +1,92 @@
+[08-May-2015 16:52:55 America/New_York] PHP Parse error:  syntax error, unexpected '<', expecting ']' in /home/xiaobytg/public_html/finance/home.php on line 12
+[08-May-2015 16:53:15 America/New_York] PHP Parse error:  syntax error, unexpected '?>' in /home/xiaobytg/public_html/finance/home.php on line 11
+[08-May-2015 16:53:31 America/New_York] PHP Parse error:  syntax error, unexpected '?>' in /home/xiaobytg/public_html/finance/home.php on line 11
+[08-May-2015 17:10:15 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/xiaobytg/public_html/finance/home.php on line 3
+[08-May-2015 19:01:07 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/xiaobytg/public_html/finance/login.php on line 2
+[08-May-2015 19:02:26 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/xiaobytg/public_html/finance/login.php on line 59
+[08-May-2015 19:02:51 America/New_York] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home/xiaobytg/public_html/finance/login.php on line 17
+[08-May-2015 19:02:51 America/New_York] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/xiaobytg/public_html/finance/login.php on line 17
+[08-May-2015 19:03:37 America/New_York] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home/xiaobytg/public_html/finance/login.php on line 17
+[08-May-2015 19:03:37 America/New_York] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/xiaobytg/public_html/finance/login.php on line 17
+[08-May-2015 19:04:37 America/New_York] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home/xiaobytg/public_html/finance/login.php on line 17
+[08-May-2015 19:04:37 America/New_York] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/xiaobytg/public_html/finance/login.php on line 17
+[08-May-2015 19:15:08 America/New_York] PHP Warning:  mysql_real_escape_string(): Access denied for user 'root'@'localhost' (using password: NO) in /home/xiaobytg/public_html/finance/login.php on line 18
+[08-May-2015 19:15:08 America/New_York] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/xiaobytg/public_html/finance/login.php on line 18
+[08-May-2015 22:09:48 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/login.php on line 35
+[08-May-2015 22:12:21 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/login.php on line 31
+[08-May-2015 22:12:56 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/login.php on line 31
+[08-May-2015 22:13:04 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/login.php on line 31
+[08-May-2015 22:16:48 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/login.php on line 31
+[08-May-2015 22:20:54 America/New_York] PHP Parse error:  syntax error, unexpected 'require' (T_REQUIRE) in /home/xiaobytg/public_html/finance/register.php on line 3
+[08-May-2015 22:23:18 America/New_York] PHP Warning:  require(/include/footer.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/register.php on line 7
+[08-May-2015 22:23:18 America/New_York] PHP Fatal error:  require(): Failed opening required '/include/footer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/register.php on line 7
+[08-May-2015 22:23:47 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/login.php on line 31
+[08-May-2015 22:25:07 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/login.php on line 31
+[08-May-2015 22:26:43 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/login.php on line 34
+[08-May-2015 22:26:45 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/login.php on line 34
+[08-May-2015 22:27:38 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/login.php on line 36
+[08-May-2015 22:27:41 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/login.php on line 36
+[08-May-2015 22:29:15 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/login.php on line 31
+[08-May-2015 22:30:41 America/New_York] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xiaobytg/public_html/finance/login.php on line 20
+[08-May-2015 22:32:14 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and password=' at line 1' in /home/xiaobytg/public_html/finance/login.php:21
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/login.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/login.php on line 21
+[08-May-2015 22:32:49 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''user' WHERE username= and password=' at line 1' in /home/xiaobytg/public_html/finance/login.php:21
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/login.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/login.php on line 21
+[08-May-2015 22:33:11 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''user' WHERE 1' at line 1' in /home/xiaobytg/public_html/finance/login.php:21
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/login.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/login.php on line 21
+[08-May-2015 22:34:23 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''user' WHERE 1' at line 1' in /home/xiaobytg/public_html/finance/login.php:21
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/login.php(21): PDOStatement->execute()
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/login.php on line 21
+[08-May-2015 22:36:59 America/New_York] PHP Fatal error:  Call to a member function query() on a non-object in /home/xiaobytg/public_html/finance/login.php on line 20
+[08-May-2015 22:37:19 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''user' Where username='' and passowrd=''' at line 1' in /home/xiaobytg/public_html/finance/login.php:20
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/login.php(20): PDO->query('SELECT * FROM '...')
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/login.php on line 20
+[08-May-2015 22:39:00 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''user' Where username= :user and passowrd= :pass' at line 1' in /home/xiaobytg/public_html/finance/login.php:20
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/login.php(20): PDO->query('SELECT * FROM '...')
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/login.php on line 20
+[08-May-2015 22:39:52 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''user' Where username= '' and passowrd= ''' at line 1' in /home/xiaobytg/public_html/finance/login.php:20
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/login.php(20): PDO->query('SELECT * FROM '...')
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/login.php on line 20
+[08-May-2015 22:40:13 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'passowrd' in 'where clause'' in /home/xiaobytg/public_html/finance/login.php:20
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/login.php(20): PDO->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/login.php on line 20
+[08-May-2015 22:40:28 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'passoword' in 'where clause'' in /home/xiaobytg/public_html/finance/login.php:20
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/login.php(20): PDO->query('SELECT * FROM u...')
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/login.php on line 20
+[08-May-2015 22:42:10 America/New_York] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/xiaobytg/public_html/finance/login.php on line 21
+[08-May-2015 22:43:25 America/New_York] PHP Parse error:  syntax error, unexpected '*' in /home/xiaobytg/public_html/finance/login.php on line 34
+[08-May-2015 22:43:39 America/New_York] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/xiaobytg/public_html/finance/login.php on line 21
+[09-May-2015 01:57:05 America/New_York] PHP Parse error:  syntax error, unexpected '*' in /home/xiaobytg/public_html/finance/login.php on line 31
+[09-May-2015 01:57:22 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/xiaobytg/public_html/finance/include/header.php:9) in /home/xiaobytg/public_html/finance/login.php on line 29
+[09-May-2015 02:01:34 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/xiaobytg/public_html/finance/login.php:11) in /home/xiaobytg/public_html/finance/login.php on line 25
+[09-May-2015 02:02:35 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/xiaobytg/public_html/finance/login.php:11) in /home/xiaobytg/public_html/finance/login.php on line 25
+[09-May-2015 02:07:40 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/xiaobytg/public_html/finance/include/header.php:9) in /home/xiaobytg/public_html/finance/index.php on line 9
+[09-May-2015 02:07:46 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/xiaobytg/public_html/finance/include/header.php:9) in /home/xiaobytg/public_html/finance/index.php on line 9
+[09-May-2015 02:07:49 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/xiaobytg/public_html/finance/include/header.php:9) in /home/xiaobytg/public_html/finance/index.php on line 9
+[09-May-2015 02:07:52 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/xiaobytg/public_html/finance/include/header.php:9) in /home/xiaobytg/public_html/finance/index.php on line 9
+[10-May-2015 02:19:47 America/New_York] PHP Parse error:  syntax error, unexpected ';' in /home/xiaobytg/public_html/finance/login.php on line 20
+[10-May-2015 02:30:38 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/xiaobytg/public_html/finance/create.php on line 5
+[10-May-2015 02:30:55 America/New_York] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xiaobytg/public_html/finance/create.php on line 22
+[10-May-2015 02:37:12 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/xiaobytg/public_html/finance/create.php:20) in /home/xiaobytg/public_html/finance/create.php on line 21
+[10-May-2015 02:52:51 America/New_York] PHP Parse error:  syntax error, unexpected 'btn' (T_STRING), expecting ',' or ';' in /home/xiaobytg/public_html/finance/home.php on line 25

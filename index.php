@@ -70,12 +70,8 @@
 				?>
 				visitor.</h3>
 				<p>Welcome.</p>
-				<p>This site is being built by a CS graduate student came from China 
-				two years ago, who has spent this precious two years studying useless 
-				things.</p>
-				<p>Now he has to teach himself some web development skills in
-				order to get a job in CA so that he won't get dumped by his girlfriend,
-				 at least for the moment.</p>
+				<p>I build this site to learn some
+				web development skills.</p>
 				<p>More features will be available.</p>
 				<p align="right">4/26/2015</p>
 				
@@ -102,7 +98,7 @@
       			<div class="modal-body">
        			<p>Email: xiaochenzhuo03@163.com</p>
        			<p>Phone: (+1)8312392778</p>
-       			<p><a href="https://github.com/xiaochenzhuo03">Github: xiaochenzhuo03<a></p>
+       			<p>Github:<a href="https://github.com/xiaochenzhuo03"> xiaochenzhuo03</a></p>
       			</div>
       			<div class="modal-footer">
       			</div>

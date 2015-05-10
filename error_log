@@ -1,7 +1,0 @@
-[26-Apr-2015 21:49:39 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/xiaobytg/public_html/index.php on line 39
-[26-Apr-2015 22:39:42 America/New_York] PHP Warning:  fopen(/data/countlog.txt): failed to open stream: No such file or directory in /home/xiaobytg/public_html/index.php on line 34
-[26-Apr-2015 22:39:42 America/New_York] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /home/xiaobytg/public_html/index.php on line 35
-[26-Apr-2015 22:39:42 America/New_York] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/xiaobytg/public_html/index.php on line 36
-[26-Apr-2015 22:39:42 America/New_York] PHP Warning:  fopen(/data/countlog.txt): failed to open stream: No such file or directory in /home/xiaobytg/public_html/index.php on line 40
-[26-Apr-2015 22:39:42 America/New_York] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/xiaobytg/public_html/index.php on line 41
-[26-Apr-2015 22:39:42 America/New_York] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/xiaobytg/public_html/index.php on line 42

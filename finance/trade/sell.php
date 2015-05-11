@@ -6,8 +6,8 @@
     header("Location: http://$host$path/index.php");
     exit;
 	}
-	$title = "Home";
-	include("include/header.php");
+	$title = "Trade Center: Sell";
+	include("../include/header.php");
 ?>
 	
 	
@@ -17,14 +17,14 @@
 	<body>
 	
 	<div align="center">
-  		<h1>Xiaochen's Stock Exchange</h1>
+  		<h1>Trade Center: Sell</h1>
   </div>
   <font size=4>
   <div align="right">
   	<?php 
   		echo "welcome, ".htmlspecialchars($_SESSION["user"])."&nbsp&nbsp&nbsp&nbsp<br>";
-  		echo "<a href =\"trade/portfolio.php\"><u>my account</u></a>&nbsp|&nbsp";
-  		echo "<a href=\"logout.php\"><u>log out</u></a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+  		echo "<a href =\"portfolio.php\"><u>my account</u></a>&nbsp|&nbsp";
+  		echo "<a href=\"../logout.php\"><u>log out</u></a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
   	?>
   </div>
   </font>
@@ -49,7 +49,7 @@
 	</div>
 	<div align = "center">
 <?
-	require ("trade/price.php");
+	require ("price.php");
 	if (isset($_POST["stockID"])){
 	if ($stock["last_trade"] == 'N/A'){
 			echo "No such stock!!";
@@ -70,13 +70,11 @@
 	</div>
 	</div>
 	<div class="col-sm-4" align="center">
-		<h2>Trade Center</h2>
+		<h2>Trade Center:Buy</h2>
 		<br>
 		<div align="center">
-			<p>We will charge <font color="green">0.099%</font> on all transaction.</p>
+		<p>We will charge 0.099% for all transaction.</p>
 		<br>
-		<a href="trade/buy.php" role="button" class="btn btn-primary" target="_blank" ><h4>Buy Stock</h4></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-		<a href= "trade/sell.php" role="button" class="btn btn-primary" target="_blank"><h4>Sell Stock</h4></a>
 		</div>
 	</div>
 	
@@ -84,10 +82,10 @@
 		<h2>Rank</h2>
 		<br><br>
 		<?
-			require ('trade/rank.php');
+			require ('rank.php');
 		?>
 	</div>
 
 <?
-	include("include/footer.php");
+	include("../include/footer.php");
 ?>

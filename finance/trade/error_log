@@ -1,0 +1,10 @@
+[10-May-2015 18:58:23 America/New_York] PHP Parse error:  syntax error, unexpected '$stock' (T_VARIABLE) in /home/xiaobytg/public_html/finance/trade/price.php on line 18
+[11-May-2015 18:09:34 America/New_York] PHP Warning:  include(include/header.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 10
+[11-May-2015 18:09:34 America/New_York] PHP Warning:  include(include/header.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 10
+[11-May-2015 18:09:34 America/New_York] PHP Warning:  include(): Failed opening 'include/header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/buy.php on line 10
+[11-May-2015 18:09:34 America/New_York] PHP Warning:  require(trade/price.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 52
+[11-May-2015 18:09:34 America/New_York] PHP Warning:  require(trade/price.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 52
+[11-May-2015 18:09:34 America/New_York] PHP Fatal error:  require(): Failed opening required 'trade/price.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/buy.php on line 52
+[11-May-2015 18:11:09 America/New_York] PHP Warning:  require(trade/price.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 52
+[11-May-2015 18:11:09 America/New_York] PHP Warning:  require(trade/price.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 52
+[11-May-2015 18:11:09 America/New_York] PHP Fatal error:  require(): Failed opening required 'trade/price.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/buy.php on line 52

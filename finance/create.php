@@ -31,8 +31,7 @@ if (isset($_POST["user"]) && isset($_POST["pass1"])){
 			$n = $result[userid];
 			$name = "portfolio_".$n;
 			$stmt = $conn->prepare("CREATE TABLE $name(
-				stockid int(32),
-				stockprice double,
+				stocksymbol varchar(32),
 				share int(32)
 				)");	
 			$stmt->execute();	

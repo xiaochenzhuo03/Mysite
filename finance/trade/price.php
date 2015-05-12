@@ -26,4 +26,14 @@ function test_input($data) {
 
 $temp = test_input($_POST["stockID"]);
 $stock = get_quote_data($temp);
+
+if (isset($_POST["stockID"])){
+	if ($stock["last_trade"] == 'N/A'){
+		$no_stock = 1;
+	} else {
+		$stock_symbol=$stock["symbol"];
+		$stock_price=$stock["last_trade"];
+		$company_name=$stock["name"];
+	}
+}
 ?>

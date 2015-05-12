@@ -8,3 +8,4 @@
 [11-May-2015 18:11:09 America/New_York] PHP Warning:  require(trade/price.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 52
 [11-May-2015 18:11:09 America/New_York] PHP Warning:  require(trade/price.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 52
 [11-May-2015 18:11:09 America/New_York] PHP Fatal error:  require(): Failed opening required 'trade/price.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/buy.php on line 52
+[11-May-2015 23:36:25 America/New_York] PHP Parse error:  syntax error, unexpected '$n1' (T_VARIABLE) in /home/xiaobytg/public_html/finance/trade/price.php on line 38

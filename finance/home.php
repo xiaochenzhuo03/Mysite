@@ -28,16 +28,15 @@
   	?>
   </div>
   </font>
-  <br><br><br>
+  <br>
   <div class="col-sm-4">
   	<div align="center">
   	<h2>Search</h2>
   	</div>
-  	<br>
   <div align="center">
   	<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" id="price" method="POST">
 			<br>
-			<input type="text" name="stockID" size="30" placeholder=" Enter Symbol ">  
+			<input type="text" name="stockID" size="40" placeholder=" Enter Symbol ">  
 			<input class="btn btn-default" type="submit" value="Look up">
 		</form>
 	</div>
@@ -45,27 +44,36 @@
 	 You may search for the symbol
   		<a href="http://finance.yahoo.com" target="_blank"><u>here</u></a>.
 	<div>
-	<br>
 	</div>
 	<div align = "center">
 <?
 	require ("trade/price.php");
+	require ("include/connect.php");
 	if (isset($_POST["stockID"])){
-	if ($stock["last_trade"] == 'N/A'){
+		if ($_POST["stockID"]==""){
+			echo "Please Enter A Symbol";
+		}	elseif ($stock["last_trade"] == 'N/A'){
 			echo "No such stock!!";
-	} else {
+		} else {
 			echo "<table border=\"1\" style=\"width:100%\" align=\"center\">";
 			echo "<tr><td>Symbol</td><td>Price</td><td>Name</td></tr>";
-			echo "<tr><td>".$stock["symbol"]."</td>";
-			echo "<td>".$stock["last_trade"]."</td>";
-			echo "<td>".$stock["name"]."</td></tr>";
+			echo "<tr><td>".$stock_symbol."</td>";
+			echo "<td>".$stock_price."</td>";
+			echo "<td>".$company_name."</td></tr>";
 			echo "</table>";
-			$n1 = 0;
-			$n2 = 0;
 			echo "<br>";
-			echo "you own ".$n1." shares of this company.<br><br>";
-			echo "you can buy ".$n2." shares of this company.<br>";
-	}}
+			include('include/checkstock.php');
+			echo "<div align=\"left\">";
+			echo "you owns <font color = \"green\"> ".$own."</font> shares of this stock."."<br>";
+			echo "<br>";
+			echo "you have <font color = \"green\">".$money."</font> dollars "."<br>";
+			echo "<br>";
+			echo "you can buy total <font color = \"green\"> ".$n." </font>shares of this stock <br>"; 
+			echo "<br>";
+			echo "transaction fee will be <font color = \"red\"> ".$fee." </font> dollars";
+			echo "</div>";
+		}
+	}
 	?>
 	</div>
 	</div>

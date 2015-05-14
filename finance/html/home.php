@@ -1,38 +1,38 @@
-<?php
-session_start();
-if (!isset($_SESSION["authenticated"]) || $_SESSION["authenticated"] != true){
-    header("Location: http://xiaochenzhuo/finance/index.php");
+<?php	
+	session_start();
+	$host = $_SERVER["HTTP_HOST"];
+  $path = rtrim(dirname($_SERVER["PHP_SELF"]), "/\\");
+	if (!isset($_SESSION["authenticated"]) || $_SESSION["authenticated"] != true){
+    header("Location: http://$host$path/index.php");
     exit;
 	}
-require_once("../control/model.php");
-$title = "Portfolio";
-require("../include/header.php");
+	$title = "Home";
+	include("include/header.php");
 ?>
-
-</head>
-<body>
+	
+	
+	
+	
+  </head>
+	<body>
 	
 	<div align="center">
-  		<h1><?echo $_SESSION['user'];?> 's Portfolio</h1>
+  		<h1>Xiaochen's Stock Exchange</h1>
   </div>
   <font size=4>
   <div align="right">
   	<?php 
   		echo "welcome, ".htmlspecialchars($_SESSION["user"])."&nbsp&nbsp&nbsp&nbsp<br>";
-  		echo "<a href =\"../home.php\" target=\"_blank\"><u>Home</u></a>&nbsp|&nbsp";
-  		echo "<a href=\"../logout.php\" target=\"_blank\"><u>log out</u></a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+  		echo "<a href =\"trade/portfolio.php\"><u>my account</u></a>&nbsp|&nbsp";
+  		echo "<a href=\"logout.php\"><u>log out</u></a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
   	?>
   </div>
   </font>
-	<div class ="col-sm-4">
-<?
-require ("refresh.php")
-?>
-<br>
+  <br>
+  <div class="col-sm-4">
   	<div align="center">
   	<h2>Search</h2>
   	</div>
-  	
   <div align="center">
   	<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" id="price" method="POST">
 			<br>
@@ -43,11 +43,12 @@ require ("refresh.php")
 	 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 	 You may search for the symbol
   		<a href="http://finance.yahoo.com" target="_blank"><u>here</u></a>.
-
+	<div>
+	</div>
 	<div align = "center">
 <?
-	require ("price.php");
-	require ("../include/connect.php");
+	require ("trade/price.php");
+	require ("include/connect.php");
 	if (isset($_POST["stockID"])){
 		if ($_POST["stockID"]==""){
 			echo "Please Enter A Symbol";
@@ -61,7 +62,7 @@ require ("refresh.php")
 			echo "<td>".$company_name."</td></tr>";
 			echo "</table>";
 			echo "<br>";
-			include('../include/checkstock.php');
+			include('include/checkstock.php');
 			echo "<div align=\"left\">";
 			echo "you owns <font color = \"green\"> ".$own."</font> shares of this stock."."<br>";
 			echo "<br>";
@@ -74,30 +75,27 @@ require ("refresh.php")
 		}
 	}
 	?>
-</div>
-</div>
+	</div>
 	</div>
 	<div class="col-sm-4" align="center">
-	<br>
-		<h2>Portfolio</h2>
-<?
-require ("display.php")
-?>
-	</div>
-
-	<div class="col-sm-4">
-	</div>
-		<div class="col-sm-4" align="center">
+		<h2>Trade Center</h2>
 		<br>
-		<h2>Hall of Fame</h2>
+		<div align="center">
+			<p>We will charge <font color="green">0.099%</font> on all transaction.</p>
+		<br>
+		<a href="trade/buy.php" role="button" class="btn btn-primary" target="_blank" ><h4>Buy Stock</h4></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href= "trade/sell.php" role="button" class="btn btn-primary" target="_blank"><h4>Sell Stock</h4></a>
+		</div>
+	</div>
+	
+	<div class="col-sm-4" align="center">
+		<h2>Rank</h2>
 		<br><br>
 		<?
-			require ('rank.php');
+			require ('trade/rank.php');
 		?>
 	</div>
 
-
-
 <?
-require ("../include/footer.php");
+	include("include/footer.php");
 ?>

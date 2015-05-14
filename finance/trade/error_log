@@ -1,11 +1,160 @@
-[10-May-2015 18:58:23 America/New_York] PHP Parse error:  syntax error, unexpected '$stock' (T_VARIABLE) in /home/xiaobytg/public_html/finance/trade/price.php on line 18
-[11-May-2015 18:09:34 America/New_York] PHP Warning:  include(include/header.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 10
-[11-May-2015 18:09:34 America/New_York] PHP Warning:  include(include/header.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 10
-[11-May-2015 18:09:34 America/New_York] PHP Warning:  include(): Failed opening 'include/header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/buy.php on line 10
-[11-May-2015 18:09:34 America/New_York] PHP Warning:  require(trade/price.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 52
-[11-May-2015 18:09:34 America/New_York] PHP Warning:  require(trade/price.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 52
-[11-May-2015 18:09:34 America/New_York] PHP Fatal error:  require(): Failed opening required 'trade/price.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/buy.php on line 52
-[11-May-2015 18:11:09 America/New_York] PHP Warning:  require(trade/price.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 52
-[11-May-2015 18:11:09 America/New_York] PHP Warning:  require(trade/price.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 52
-[11-May-2015 18:11:09 America/New_York] PHP Fatal error:  require(): Failed opening required 'trade/price.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/buy.php on line 52
-[11-May-2015 23:36:25 America/New_York] PHP Parse error:  syntax error, unexpected '$n1' (T_VARIABLE) in /home/xiaobytg/public_html/finance/trade/price.php on line 38
+[12-May-2015 12:55:25 America/New_York] PHP Warning:  require(trade/price.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 37
+[12-May-2015 12:55:25 America/New_York] PHP Warning:  require(trade/price.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 37
+[12-May-2015 12:55:25 America/New_York] PHP Fatal error:  require(): Failed opening required 'trade/price.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/buy.php on line 37
+[12-May-2015 12:55:55 America/New_York] PHP Fatal error:  Cannot redeclare get_quote_data() (previously declared in /home/xiaobytg/public_html/finance/trade/price.php:6) in /home/xiaobytg/public_html/finance/trade/price.php on line 18
+[12-May-2015 12:58:02 America/New_York] PHP Warning:  include(include/checkstock.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 50
+[12-May-2015 12:58:02 America/New_York] PHP Warning:  include(include/checkstock.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 50
+[12-May-2015 12:58:02 America/New_York] PHP Warning:  include(): Failed opening 'include/checkstock.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/buy.php on line 50
+[12-May-2015 12:58:32 America/New_York] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xiaobytg/public_html/finance/include/checkstock.php on line 6
+[12-May-2015 12:59:50 America/New_York] PHP Warning:  require(include/connect.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 50
+[12-May-2015 12:59:50 America/New_York] PHP Warning:  require(include/connect.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 50
+[12-May-2015 12:59:50 America/New_York] PHP Fatal error:  require(): Failed opening required 'include/connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/buy.php on line 50
+[12-May-2015 13:04:36 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/xiaobytg/public_html/finance/trade/buy.php on line 58
+[12-May-2015 13:04:50 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/xiaobytg/public_html/finance/trade/buy.php on line 57
+[12-May-2015 13:05:00 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/xiaobytg/public_html/finance/trade/buy.php on line 57
+[12-May-2015 13:05:41 America/New_York] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/xiaobytg/public_html/finance/trade/buy.php on line 57
+[12-May-2015 13:06:04 America/New_York] PHP Parse error:  syntax error, unexpected '{' in /home/xiaobytg/public_html/finance/trade/buy.php on line 57
+[12-May-2015 13:07:48 America/New_York] PHP Parse error:  syntax error, unexpected 'col' (T_STRING), expecting ',' or ';' in /home/xiaobytg/public_html/finance/trade/buy.php on line 63
+[12-May-2015 13:17:36 America/New_York] PHP Parse error:  syntax error, unexpected 'isset' (T_ISSET), expecting '(' in /home/xiaobytg/public_html/finance/trade/buy.php on line 57
+[12-May-2015 13:17:56 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/xiaobytg/public_html/finance/trade/buy.php on line 60
+[12-May-2015 13:18:44 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/xiaobytg/public_html/finance/trade/buy.php on line 60
+[12-May-2015 13:19:04 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/xiaobytg/public_html/finance/trade/buy.php on line 60
+[12-May-2015 13:19:50 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/xiaobytg/public_html/finance/trade/buy.php on line 60
+[12-May-2015 13:20:34 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/xiaobytg/public_html/finance/trade/buy.php on line 61
+[12-May-2015 13:21:44 America/New_York] PHP Parse error:  syntax error, unexpected '&&' (T_BOOLEAN_AND), expecting ',' or ')' in /home/xiaobytg/public_html/finance/trade/buy.php on line 58
+[12-May-2015 13:22:26 America/New_York] PHP Parse error:  syntax error, unexpected 'and' (T_LOGICAL_AND), expecting ',' or ')' in /home/xiaobytg/public_html/finance/trade/buy.php on line 58
+[12-May-2015 13:22:37 America/New_York] PHP Parse error:  syntax error, unexpected 'and' (T_LOGICAL_AND), expecting ',' or ')' in /home/xiaobytg/public_html/finance/trade/buy.php on line 58
+[12-May-2015 13:23:02 America/New_York] PHP Parse error:  syntax error, unexpected ')' in /home/xiaobytg/public_html/finance/trade/buy.php on line 58
+[12-May-2015 13:32:08 America/New_York] PHP Fatal error:  Cannot break/continue 1 level in /home/xiaobytg/public_html/finance/trade/buy.php on line 60
+[12-May-2015 13:34:02 America/New_York] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/xiaobytg/public_html/finance/trade/buy.php on line 60
+[12-May-2015 15:31:29 America/New_York] PHP Parse error:  syntax error, unexpected '{' in /home/xiaobytg/public_html/finance/trade/buy.php on line 102
+[12-May-2015 15:31:46 America/New_York] PHP Parse error:  syntax error, unexpected '{' in /home/xiaobytg/public_html/finance/trade/buy.php on line 102
+[12-May-2015 15:32:09 America/New_York] PHP Parse error:  syntax error, unexpected '{' in /home/xiaobytg/public_html/finance/trade/buy.php on line 102
+[12-May-2015 15:33:05 America/New_York] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/xiaobytg/public_html/finance/trade/buy.php on line 122
+[12-May-2015 15:33:16 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/trade/buy.php on line 133
+[12-May-2015 17:55:09 America/New_York] PHP Parse error:  syntax error, unexpected '" method=\"post\">"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/xiaobytg/public_html/finance/trade/buy.php on line 123
+[12-May-2015 17:55:26 America/New_York] PHP Parse error:  syntax error, unexpected '" method=\"post\">"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/xiaobytg/public_html/finance/trade/buy.php on line 123
+[12-May-2015 18:40:25 America/New_York] PHP Parse error:  syntax error, unexpected 'and' (T_LOGICAL_AND), expecting ',' or ')' in /home/xiaobytg/public_html/finance/trade/buy.php on line 133
+[12-May-2015 18:50:54 America/New_York] PHP Parse error:  syntax error, unexpected 'to' (T_STRING) in /home/xiaobytg/public_html/finance/trade/buy.php on line 136
+[12-May-2015 18:51:12 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/control/model.php on line 189
+[12-May-2015 18:52:03 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/control/model.php on line 94
+[12-May-2015 19:03:54 America/New_York] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/xiaobytg/public_html/finance/trade/buy.php on line 140
+[12-May-2015 19:04:11 America/New_York] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/xiaobytg/public_html/finance/trade/buy.php on line 143
+[12-May-2015 19:04:35 America/New_York] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/xiaobytg/public_html/finance/trade/buy.php on line 142
+[12-May-2015 19:04:36 America/New_York] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/xiaobytg/public_html/finance/trade/buy.php on line 142
+[12-May-2015 19:05:01 America/New_York] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/xiaobytg/public_html/finance/trade/buy.php on line 139
+[12-May-2015 19:34:23 America/New_York] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/xiaobytg/public_html/finance/trade/buy.php on line 118
+[12-May-2015 19:35:26 America/New_York] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/xiaobytg/public_html/finance/trade/buy.php on line 118
+[12-May-2015 19:35:28 America/New_York] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/xiaobytg/public_html/finance/trade/buy.php on line 118
+[12-May-2015 20:13:55 America/New_York] PHP Parse error:  syntax error, unexpected 'isset' (T_ISSET), expecting '(' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 2
+[12-May-2015 20:14:27 America/New_York] PHP Parse error:  syntax error, unexpected 'isset' (T_ISSET), expecting '(' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 2
+[12-May-2015 20:14:37 America/New_York] PHP Parse error:  syntax error, unexpected 'isset' (T_ISSET), expecting '(' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 2
+[12-May-2015 20:16:27 America/New_York] PHP Parse error:  syntax error, unexpected 'isset' (T_ISSET), expecting '(' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 2
+[12-May-2015 20:17:44 America/New_York] PHP Parse error:  syntax error, unexpected 'isset' (T_ISSET), expecting '(' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 6
+[12-May-2015 23:10:02 America/New_York] PHP Parse error:  syntax error, unexpected 'isset' (T_ISSET), expecting '(' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 6
+[12-May-2015 23:24:17 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 15
+[12-May-2015 23:26:37 America/New_York] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/xiaobytg/public_html/finance/trade/buy_stock.php:4) in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 5
+[12-May-2015 23:37:28 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 4
+[12-May-2015 23:38:11 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 4
+[12-May-2015 23:38:14 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 4
+[12-May-2015 23:38:31 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 4
+[12-May-2015 23:38:37 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 4
+[13-May-2015 00:24:55 America/New_York] PHP Parse error:  syntax error, unexpected 'query' (T_STRING) in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 16
+[13-May-2015 00:25:08 America/New_York] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 17
+[13-May-2015 00:39:12 America/New_York] PHP Parse error:  syntax error, unexpected 'modify' (T_STRING) in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 30
+[13-May-2015 00:59:03 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 21
+[13-May-2015 01:00:14 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 21
+[13-May-2015 01:05:05 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 17
+[13-May-2015 01:13:20 America/New_York] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 15
+[13-May-2015 01:14:09 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting '(' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 17
+[13-May-2015 01:14:22 America/New_York] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting '(' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 17
+[13-May-2015 01:14:50 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 18
+[13-May-2015 01:23:17 America/New_York] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 16
+[13-May-2015 01:26:17 America/New_York] PHP Fatal error:  Call to a member function rowCount() on a non-object in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 17
+[13-May-2015 01:51:31 America/New_York] PHP Parse error:  syntax error, unexpected 'modify' (T_STRING) in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 24
+[13-May-2015 01:51:58 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''portfolio_27' where stocksymbol = 'yhoo'' at line 1' in /home/xiaobytg/public_html/finance/trade/buy_stock.php:31
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/trade/buy_stock.php(31): PDO->query('select share fr...')
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 31
+[13-May-2015 01:54:15 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''portfolio_27' where stocksymbol = 'yhoo'' at line 1' in /home/xiaobytg/public_html/finance/trade/buy_stock.php:26
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/trade/buy_stock.php(26): PDO->query('select share fr...')
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 26
+[13-May-2015 01:57:00 America/New_York] PHP Parse error:  syntax error, unexpected '*' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 40
+[13-May-2015 01:57:37 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where stocksymbol='yhoo'' at line 1' in /home/xiaobytg/public_html/finance/trade/buy_stock.php:35
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/trade/buy_stock.php(35): PDO->exec('update portfoli...')
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 35
+[13-May-2015 01:58:24 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where stocksymbol='yhoo'' at line 1' in /home/xiaobytg/public_html/finance/trade/buy_stock.php:35
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/trade/buy_stock.php(35): PDO->exec('update portfoli...')
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 35
+[13-May-2015 02:11:59 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'total = (total-'50') where userid='27'' at line 1' in /home/xiaobytg/public_html/finance/trade/buy_stock.php:45
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/trade/buy_stock.php(45): PDO->exec('update user set...')
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 45
+[13-May-2015 02:16:18 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/xiaobytg/public_html/finance/include/header.php:8) in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 45
+[13-May-2015 02:24:14 America/New_York] PHP Parse error:  syntax error, unexpected '<', expecting ')' in /home/xiaobytg/public_html/finance/trade/buy_stock.php on line 44
+[13-May-2015 12:49:56 America/New_York] PHP Warning:  require_once(../controller/model.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 7
+[13-May-2015 12:49:56 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../controller/model.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 7
+[13-May-2015 13:02:35 America/New_York] PHP Fatal error:  Cannot redeclare check_logged() (previously declared in /home/xiaobytg/public_html/finance/control/model.php:4) in /home/xiaobytg/public_html/finance/trade/rank.php on line 8
+[13-May-2015 13:03:53 America/New_York] PHP Fatal error:  Cannot redeclare connect_database() (previously declared in /home/xiaobytg/public_html/finance/control/model.php:11) in /home/xiaobytg/public_html/finance/trade/rank.php on line 21
+[13-May-2015 13:49:53 America/New_York] PHP Fatal error:  Call to undefined function test_input() in /home/xiaobytg/public_html/finance/trade/price.php on line 7
+[13-May-2015 13:54:57 America/New_York] PHP Parse error:  syntax error, unexpected 'users' (T_STRING) in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 36
+[13-May-2015 13:58:28 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 40
+[13-May-2015 13:58:39 America/New_York] PHP Parse error:  syntax error, unexpected 'everyting' (T_STRING) in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 55
+[13-May-2015 14:21:41 America/New_York] PHP Parse error:  syntax error, unexpected '}' in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 47
+[13-May-2015 14:21:54 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'yhoo' in 'where clause'' in /home/xiaobytg/public_html/finance/trade/portfolio.php:44
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/trade/portfolio.php(44): PDO->query('SELECT stockpri...')
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 44
+[13-May-2015 14:22:31 America/New_York] PHP Fatal error:  Cannot use object of type PDOStatement as array in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 45
+[13-May-2015 14:23:45 America/New_York] PHP Parse error:  syntax error, unexpected '$price' (T_VARIABLE) in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 46
+[13-May-2015 14:23:55 America/New_York] PHP Fatal error:  Call to undefined method PDOStatement::fetch_assoc() in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 45
+[13-May-2015 14:35:11 America/New_York] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 53
+[13-May-2015 14:59:07 America/New_York] PHP Warning:  require_once(../control/model): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/rank.php on line 42
+[13-May-2015 14:59:07 America/New_York] PHP Fatal error:  require_once(): Failed opening required '../control/model' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/rank.php on line 42
+[13-May-2015 15:21:59 America/New_York] PHP Warning:  require(displayphp): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 37
+[13-May-2015 15:21:59 America/New_York] PHP Warning:  require(displayphp): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 37
+[13-May-2015 15:21:59 America/New_York] PHP Fatal error:  require(): Failed opening required 'displayphp' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 37
+[13-May-2015 15:22:27 America/New_York] PHP Parse error:  syntax error, unexpected '$table' (T_VARIABLE) in /home/xiaobytg/public_html/finance/trade/display.php on line 8
+[13-May-2015 22:59:37 America/New_York] PHP Fatal error:  Call to undefined method PDOStatement::fectch() in /home/xiaobytg/public_html/finance/trade/display.php on line 15
+[13-May-2015 23:18:38 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /home/xiaobytg/public_html/finance/trade/display.php on line 36
+[13-May-2015 23:24:55 America/New_York] PHP Parse error:  syntax error, unexpected 'SELECT' (T_STRING) in /home/xiaobytg/public_html/finance/trade/display.php on line 36
+[13-May-2015 23:32:26 America/New_York] PHP Fatal error:  Call to undefined function query() in /home/xiaobytg/public_html/finance/trade/display.php on line 36
+[13-May-2015 23:32:52 America/New_York] PHP Fatal error:  Call to undefined function query() in /home/xiaobytg/public_html/finance/trade/display.php on line 37
+[13-May-2015 23:46:21 America/New_York] PHP Parse error:  syntax error, unexpected '"</font></td></tr>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/xiaobytg/public_html/finance/trade/display.php on line 46
+[13-May-2015 23:47:19 America/New_York] PHP Parse error:  syntax error, unexpected '"</td>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/xiaobytg/public_html/finance/trade/display.php on line 44
+[13-May-2015 23:53:16 America/New_York] PHP Warning:  require(trade/price.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 51
+[13-May-2015 23:53:16 America/New_York] PHP Warning:  require(trade/price.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 51
+[13-May-2015 23:53:16 America/New_York] PHP Fatal error:  require(): Failed opening required 'trade/price.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 51
+[13-May-2015 23:53:31 America/New_York] PHP Warning:  require(..include/connect.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 52
+[13-May-2015 23:53:31 America/New_York] PHP Warning:  require(..include/connect.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 52
+[13-May-2015 23:53:31 America/New_York] PHP Fatal error:  require(): Failed opening required '..include/connect.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/portfolio.php on line 52
+[14-May-2015 00:40:39 America/New_York] PHP Warning:  include( display.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 38
+[14-May-2015 00:40:39 America/New_York] PHP Warning:  include( display.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/buy.php on line 38
+[14-May-2015 00:40:39 America/New_York] PHP Warning:  include(): Failed opening ' display.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/buy.php on line 38
+[14-May-2015 00:58:35 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/xiaobytg/public_html/finance/trade/sell.php on line 38
+[14-May-2015 00:58:46 America/New_York] PHP Warning:  require( display.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/sell.php on line 37
+[14-May-2015 00:58:46 America/New_York] PHP Warning:  require( display.php): failed to open stream: No such file or directory in /home/xiaobytg/public_html/finance/trade/sell.php on line 37
+[14-May-2015 00:58:46 America/New_York] PHP Fatal error:  require(): Failed opening required ' display.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/xiaobytg/public_html/finance/trade/sell.php on line 37
+[14-May-2015 11:57:31 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/xiaobytg/public_html/finance/trade/sell.php on line 53
+[14-May-2015 12:06:09 America/New_York] PHP Parse error:  syntax error, unexpected '<' in /home/xiaobytg/public_html/finance/trade/sell.php on line 87
+[14-May-2015 12:06:35 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'stocksymbol' in field list is ambiguous' in /home/xiaobytg/public_html/finance/trade/sell.php:64
+Stack trace:
+#0 /home/xiaobytg/public_html/finance/trade/sell.php(64): PDO->query('select stocksym...')
+#1 {main}
+  thrown in /home/xiaobytg/public_html/finance/trade/sell.php on line 64
+[14-May-2015 12:14:52 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/trade/sell.php on line 133
+[14-May-2015 12:15:00 America/New_York] PHP Parse error:  syntax error, unexpected end of file in /home/xiaobytg/public_html/finance/trade/sell.php on line 134
+[14-May-2015 12:18:39 America/New_York] PHP Parse error:  syntax error, unexpected '=' in /home/xiaobytg/public_html/finance/trade/sell.php on line 63
+[14-May-2015 12:19:40 America/New_York] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/xiaobytg/public_html/finance/trade/sell.php on line 63
+[14-May-2015 12:20:01 America/New_York] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/xiaobytg/public_html/finance/trade/sell.php on line 63
+[14-May-2015 12:20:21 America/New_York] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/xiaobytg/public_html/finance/trade/sell.php on line 63
+[14-May-2015 12:20:24 America/New_York] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/xiaobytg/public_html/finance/trade/sell.php on line 63

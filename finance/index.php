@@ -33,7 +33,7 @@
 	</script>
 	</head>	
 	<body>
-	<h1 align="center">Xiaochen Zhuo's Stock exchange</h1>
+	<h1 align="center">Xiaochen Zhuo's Stock Exchange</h1>
 	<br><br><br>
 	<div align="center">
 		<form action="login.php" id="login" onsubmit="return validate()" method="POST">

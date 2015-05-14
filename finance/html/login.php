@@ -27,7 +27,7 @@ if (isset($_POST["user"]) && isset($_POST["pass"])){
     exit; 	
 		} else {
  			header("Location: http://$host$path/index.php");
- 			exit;
+  		exit;		
 	}
 }
 ?>
